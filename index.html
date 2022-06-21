@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="title"> Calculadora - IMC </div>
+        <div class="input">
+            <label>Nome:</label>
+            <input type="text" id='nome'>
+        </div>
+        <div class="input">
+            <label>Altura:</label>
+            <input type="number" id='altura'>
+        </div>
+        <div class="input">
+            <label>Peso:</label>
+            <input type="number" id='peso'>
+        </div>
+        <button id='calcular'>Calcular</button>
+
+        <div class="result" id='resultado'></div>
+      </div>
+    </main>
+    <script src="./imc.js"></script>
+    
+    <footer>
+      <div class="main-content">
+        <div class="left box">
+          <h2> Sobre mim</h2>
+          <div class="content">
+            <p>Meu nome é Jose Leonardo Perez e sou desenvolver Full Stack <br> Gosto de programar e desenvolver soluções tecnologicas</p>
+          
+            <div class="social">
+              <a href="https://www.facebook.com/jose.l.perez.520900"><span class="fab fa-facebook-f"></span></a>
+               <a href="https://www.instagram.com/joseleonardsud/"><span class="fab fa-instagram"></span></a>
+            </div>
+          </div>
+        </div><!--left box-->
+        <div class="center box">
+          <h2>Endereço</h2>
+          <div class="content">
+            <div class="place">
+              <span class="fas fa-map-marker"></span>
+              <span class="text">Jundia-São Paulo</span>
+            </div>
+  
+            <div class="phone">
+              <span class="fas fas fa-phone-alt"></span>
+              <span class="text">+55 11 945957443</span>
+            </div>
+  
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text">joseleonardsud@gmail.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="right box">
+          <h2>Contato</h2>
+          <div class="content">
+            <form action="#">
+              <div class="email">
+                <div class="text">Email *</div>
+                <input type="email" required>
+              </div>
+              <div class="msg">
+                <div class="text">Mensagem *</div>
+                <textarea rows="2" cols="25" required></textarea>
+              </div>
+              <div class="btn">
+                <button type="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div><!--main-content-->
+      <div class="bottom">
+        <div class="center">
+          <span class="credit">Criado por <a href="#">josedev</a></span>
+          <span class="far fa-copyright">2022 Todos os diteitos reservados</span>
+        </div>
+      </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </body>
+</html>
